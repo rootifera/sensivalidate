@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sensivalidate"
+version = "0.1"
+authors = [
+  { name = "Omur Ozbahceliler", email = "omur@rootifera.org" },
+]
+description = "A module to find credit card, UK bank account, sort code and postcode in text"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/rootifera/sensivalidate"
+Issues = "https://github.com/rootifera/sensivalidate/issues"
