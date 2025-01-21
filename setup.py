@@ -1,9 +1,13 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="sensivalidate",
-    version="0.1",
-    packages=find_packages(),
+    version="1.0.0",
+    package_dir={
+        "": "src",
+        "sensivalidate": "src/sensivalidate_rootifera"
+    },
+    packages=["sensivalidate"],
     install_requires=[
         'creditcard==1.0.2',
     ],

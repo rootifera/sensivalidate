@@ -1,1 +1,1 @@
-from .main import is_sensitive_data
+from .sensivalidate import is_sensitive_data
